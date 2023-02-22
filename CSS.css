@@ -131,13 +131,13 @@ width:250px;
 	font-size: 18px;
 	color:white;
 	padding-left: 24px;
-	background:url("file:///D:/pictures/dodgeremoved.jpg")no-repeat left center;
+	background:url("pictures/dodgeremoved.jpg")no-repeat left center;
 	background-size:25px;
 }
 .wronged
 {
 	color:red;
-	background:url("file:///D:/pictures/dodgeredremoved.jpg")no-repeat left center;
+	background:url("pictures/dodgeredremoved.jpg")no-repeat left center;
 	background-size:40px;
 	padding-left:35px;
 }
@@ -329,7 +329,7 @@ width:250px;
 	font-size:25;
 	position:absolute;
 	margin:310 0 0 30;
-	background:url("file:///D:/pictures/color.png")no-repeat center;
+	background:url("pictures/color.png")no-repeat center;
 	backgound-size:100%;
 }
 .boxtype
@@ -351,7 +351,7 @@ width:250px;
 }
 .subbox
 {
-	background:url("file:///D:/pictures/sagah.jpg")no-repeat center;
+	background:url("pictures/sagah.jpg")no-repeat center;
 	width:354px;
 	height:401px;
 	margin-left: 375;
