@@ -4,7 +4,7 @@ var inputtext=document.getElementById("inputtext")
 var inputinform=document.getElementsByClassName("inputinform")
 inputtext.onfocus=function()
 {
-	if(inputtext.value=="please enter your father's name")
+	if(inputtext.value=="请输入你父亲的名字")
 	{
 		inputtext.value="";
 		inputtext.style.color="#333";
