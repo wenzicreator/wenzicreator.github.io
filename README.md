@@ -1,2 +1,2 @@
 # wenzicreator.github.io
-![image](pictures/pictures/gab.jpg)
+![image](pictures/gab.jpg)
