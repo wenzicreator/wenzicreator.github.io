@@ -146,7 +146,7 @@ pointddl.onclick=function()
 			
 		}
 	else{
-		background.style="background-image:url('Huawei Share/photo/zzk.png')";
+		background.style="background-image:url('pictures/zzk.png')";
 		pointddl.src="pictures/惠惠removed.jpg";
 		ddltag.style.display="none";
 		doom[0].innerHTML='点击释放爆裂魔法';
