@@ -1,5 +1,120 @@
+ 
+/*哔哩哔哩区*/
+.outstandtable/*边框*/
+{
+margin:40 50 0 100;
+border-top:10px groove #5ADBE0;
+border-right:5px solid #79F3D3;
+border-top-right-radius:250px;
+border-top-left-radius:15 px;
+width:600px;
+height:350px;
+float: right
+}
+.bilistandardword/*标准字体*/
+{
+text-align:left;
+font-size:20px;
+color:black
+}
+td.bilitopic/*主站字体*/
+{
+border-left:10px groove #E9F053;
+width:10px;
+height:150px;
+padding-left:40px;
+font-size:50px;
+color:white;
+}
+tr.bilisidelines td/*小标题*/
+{
+border-left:6px solid yellow;
+width:100px;
+height:50px;
+padding-left:10px;
+font-size:20px;
+color:white;
+}
+tr.bilipictures td/*链接图片*/
+{
+height:150px;
+}
+tr.biliheadpictures td/*主站图片*/
+{
+width:250px;
+}
 
-/*验证密码*/
+/*心情选择*/
+#moodselectorinstruction/*指导语*/
+{
+	color:white;
+	font-size:15px;	
+	float:left;
+	margin:20 0 0 25;
+	position:absolute;
+}
+#moodselectorfine/*开心*/
+{
+	margin:60 0 0 30;
+	position:absolute;
+}
+#moodselectorsad/*不爽*/
+{
+	margin:60 0 0 130;
+	position:absolute;
+}
+#moodselectorbored/*无聊*/
+{
+	margin:60 0 0 230;
+	position:absolute;
+}
+#moodselectororigin/*初始*/
+{
+	margin:110 0 0 130;
+	position:absolute;
+}
+/*音乐区*/
+.audio-playbutton
+{
+	margin:200 0 0 40;
+	width:100px;  
+	height:100px;
+	background-size:cover;
+	background-color: #6EAFD3;
+	position:absolute;
+}
+/*危机模式*/
+#pointddl
+{
+	position:fixed;
+	margin:760 0 0 1360; 
+}
+.doom
+{
+	font-size:35px;
+	font-weight:bold;
+	color:#DE2528;
+	position:absolute;
+	margin:720 0 0 1400;
+}
+#ddltag
+{
+	font-size:87px;
+	color:#EC1B1B;
+	margin:30 0 0 390;
+	display:none;
+	position: absolute;
+}
+/*危机模式b站禁用*/
+#xxbblock
+{
+	position:absolute;
+	margin:420 0 0 900;
+	display:none;
+	
+}
+
+/*找父亲*/
 #inputtext
 {
 	color:#999;
@@ -16,13 +131,254 @@
 	font-size: 18px;
 	color:white;
 	padding-left: 24px;
-	background:url("pictures/dodgeremoved.jpg") no-repeat left center;
+	background:url("file:///D:/pictures/dodgeremoved.jpg")no-repeat left center;
 	background-size:25px;
 }
 .wronged
 {
 	color:red;
-	background:url("pictures/dodgeredremoved.jpg") no-repeat left center;
+	background:url("file:///D:/pictures/dodgeredremoved.jpg")no-repeat left center;
 	background-size:40px;
 	padding-left:35px;
 }
+
+
+/*应用列表*/
+#table
+{
+	position:absolute;
+	margin-top:548;
+	margin-left:50;	
+}
+.theadcontent
+{
+	background-color:#F3FA65;
+	color:#ED7476;
+}
+#thead
+{
+	font-size:25px;
+	color:white;
+	text-align: center;
+	
+}
+#thead td
+{
+	border:5px solid #F19798;
+}
+
+#tbody
+{
+	width:800px;
+	height:400px;
+	color:white;
+	position:absolute;
+}
+.cybj
+{
+	width:850px;
+	background-repeat: no-repeat;
+}
+#cybaidu
+{
+	width:50px;
+	position:absolute;
+	margin:78 0 0 410;
+	transform:rotate(30deg);
+	
+}
+#cywrd
+{
+	width:45px;
+	position:absolute;
+	margin:190 0 0 587;
+	transform:rotateX(30deg);
+}
+#cywechat
+{
+	width:45px;
+	position:absolute;
+	margin:114 0 0 536;
+	transform:rotateX(30deg);
+}
+#cywps
+{
+	width:50px;
+	position:absolute;
+	margin:215 0 0 394;
+	transform:rotate3D(-90,0,10,35deg);
+}
+#cyQQMusic
+{
+	width:50px;
+	position:absolute;
+	margin:140 0 0 312;
+	transform:rotate3D(-90,0,70,35deg);
+}
+#cyDW
+{
+	width:50px;
+	position:absolute;
+	margin:73 0 0 630;
+	transform:rotateX(40deg);
+}
+#cy163
+{
+	width:50px;
+	position:absolute;
+	margin:103 0 0 670;
+}
+#cycsbs
+{
+	width:50px;
+	position:absolute;
+	margin:117 0 0 526;
+}
+
+#cyosu
+{
+	width:65px;
+	position:absolute;
+	margin:135 0 0 392;
+}
+#cyktp
+{
+	width:50px;
+	position:absolute;
+	margin:123 0 0 153;
+}
+#cyoj
+{
+	width:60px;
+	position:absolute;
+	margin:156 0 0 296;
+}
+#cyYouDao
+{
+	width:55px;
+	position:absolute;
+	margin:105 0 0 460;
+	transform:rotate(152deg);
+}
+#cyDevcpp
+{
+	width:60px;
+	position:absolute;
+	margin:275 0 0 530;
+	transform:rotate3D(0,40,-70,60deg);
+}
+#cygrammarly
+{
+	width:60px;
+	position:absolute;
+	margin:141 0 0 145;
+	transform:rotate(152deg);
+}
+#cyremove
+{
+	width:60px;
+	position:absolute;
+	margin:225 0 0 95;
+	transform:rotate(90deg);
+}
+#cyxyh
+{
+	width:80px;
+	height:100px;
+	border-radius: 50%;
+	position:absolute;
+	margin:50 0 0 433;
+}
+#cynianlun
+{
+	width:80px;
+	height:110px;
+	border-radius: 50%;
+	border-top-right-radius: 30%;
+	position:absolute;
+	margin:80 0 0 683;	
+	transform:rotate(10deg);
+}
+#cyjiuzhai
+{
+	width:80px;
+	height:90px;
+	border-radius: 50%;
+	position:absolute;
+	margin:120 0 0 536;
+}
+#cyyinghua
+{
+	width:50px;
+	height:100px;
+	border-top-right-radius: 36%;
+	border-top-left-radius: 40%;
+	border-bottom-right-radius: 60%;
+	border-bottom-left-radius: 30%;
+	position:absolute;
+	margin:165 0 0 172;
+	transform:rotate(-10deg);
+}
+
+
+
+/*音乐下拉菜单*/
+#musicbox
+{
+	color:#D4FC95;
+	font-size:25;
+	position:absolute;
+	margin:310 0 0 30;
+	background:url("file:///D:/pictures/color.png")no-repeat center;
+	backgound-size:100%;
+}
+.boxtype
+{
+	padding-top:5px;
+	padding-bottom: -10px;
+	height:40px;
+	width:350px;
+/*	background-color: antiquewhite;*/
+	border-style: solid;
+	border-color:#E9F053;
+	text-align: center;
+	text-decoration-color:#F5BD69;
+	font-family: "Franklin Gothic Bold";
+	background-size: cover;
+	background-position:10% 20%;
+	
+	
+}
+.subbox
+{
+	background:url("file:///D:/pictures/sagah.jpg")no-repeat center;
+	width:354px;
+	height:401px;
+	margin-left: 375;
+	position:absolute;
+	background-size:100% 100%;
+	margin-top: 0px;
+	transform:rotate(-90deg);
+}
+.subline
+{
+	position:absolute;
+	padding-top:5px;
+	padding-bottom: -10px;
+	margin-left: 0;
+	height:50px;
+	width:350px;
+	border-style:solid;
+	border-color:#8CEFCB;
+	text-align: center;
+	text-decoration-color:#F5BD69;
+/*	background-color:rgba(236,243,144,0);*/
+}
+
+
+
+
+
+
+
+
