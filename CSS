@@ -1,29 +1,28 @@
 
-//验证密码
-var inputtext=document.getElementById("inputtext")
-var inputinform=document.getElementsByClassName("inputinform")
-inputtext.onfocus=function()
+/*验证密码*/
+#inputtext
 {
-	if(inputtext.value=="please enter my father's name")
-	{
-		inputtext.value="";
-		inputtext.style.color="#333";
-	}
+	color:#999;
 }
-inputtext.onblur=function()
+.inputbox
 {
-	inputtext.style.color="#999";
-	if(inputtext.value!="闻富琪")
-		{
-			inputinform[0].className="inputinform wronged";
-			inputinform[0].innerHTML="answer's wrong";
-			
-			
-		}
-	else
-		{
-			inputinform[0].className="inputinform";
-			inputinform[0].innerHTML="ε=(´ο｀*)))oh! it's my son!";
-		}
+	margin:0 0 0 400;
+	width:1000px;
+	position:absolute;
 }
-//验证密码结束
+.inputinform
+{
+	display:inline-block;
+	font-size: 18px;
+	color:white;
+	padding-left: 24px;
+	background:url("pictures/dodgeremoved.jpg") no-repeat left center;
+	background-size:25px;
+}
+.wronged
+{
+	color:red;
+	background:url("pictures/dodgeredremoved.jpg") no-repeat left center;
+	background-size:40px;
+	padding-left:35px;
+}
