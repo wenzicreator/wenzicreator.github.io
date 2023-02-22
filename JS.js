@@ -120,8 +120,8 @@ pointddl.onclick=function()
 		}	 
 	if(doomflag == 0)
 		{
-		background.style="background-image:url('D:/Huawei Share/photo/xy.png')";
-		pointddl.src="D:/pictures/阿库娅removed.jpg";
+		background.style="background-image:url('xy.png')";
+		pointddl.src="pictures/阿库娅removed.jpg";
 		ddltag.style.display="block";
 		doom[0].innerHTML='点击释放女神净化';
 		doom[0].style.color="#6FE5F0";
@@ -146,8 +146,8 @@ pointddl.onclick=function()
 			
 		}
 	else{
-		background.style="background-image:url('D:/Huawei Share/photo/zzk.png')";
-		pointddl.src="D:/pictures/惠惠removed.jpg";
+		background.style="background-image:url('Huawei Share/photo/zzk.png')";
+		pointddl.src="pictures/惠惠removed.jpg";
 		ddltag.style.display="none";
 		doom[0].innerHTML='点击释放爆裂魔法';
 		doom[0].style.color="#DE2528";
@@ -268,7 +268,7 @@ for(m=0;m<4;m++)
 			}
 			var sub=this.getAttribute("sub");
 			subbox[sub].style.display="block";
-			this.style="background-image:url('D:/pictures/zack.jpg')";
+			this.style="background-image:url('pictures/zack.jpg')";
 		}
 		boxtype[m].onmouseout=function()
 		{
