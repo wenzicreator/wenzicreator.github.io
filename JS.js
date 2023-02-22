@@ -4,7 +4,7 @@ var inputtext=document.getElementById("inputtext")
 var inputinform=document.getElementsByClassName("inputinform")
 inputtext.onfocus=function()
 {
-	if(inputtext.value=="please enter my father's name")
+	if(inputtext.value=="please enter your father's name")
 	{
 		inputtext.value="";
 		inputtext.style.color="#333";
