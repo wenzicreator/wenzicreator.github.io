@@ -120,7 +120,7 @@ pointddl.onclick=function()
 		}	 
 	if(doomflag == 0)
 		{
-		background.style="background-image:url('xy.png')";
+		background.style="background-image:url('pictures/xy.png')";
 		pointddl.src="pictures/阿库娅removed.jpg";
 		ddltag.style.display="block";
 		doom[0].innerHTML='点击释放女神净化';
