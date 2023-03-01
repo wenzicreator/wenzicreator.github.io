@@ -25,7 +25,7 @@ function playorpause(){
 var moodselectorfine=document.getElementById('moodselectorfine');
 moodselectorfine.onclick=function()
 {
-	ISI.src="D:/music/qqmusic/Dj Blyatman _ Russian Village Boys - Cyka Blyat.mp3";
+	ISI.src="music/Dj Blyatman _ Russian Village Boys - Cyka Blyat.mp3";
 }
 moodselectorfine.onmouseover=function()
 {
@@ -40,7 +40,7 @@ moodselectorfine.onmouseout=function()
 var moodselectorsad=document.getElementById('moodselectorsad');
 moodselectorsad.onclick=function()
 {
-	ISI.src="D:/music/qqmusic/saya no uta.mp3";
+	ISI.src="music/saya no uta.mp3";
 }
 moodselectorsad.onmouseover=function()
 {
@@ -55,7 +55,7 @@ moodselectorsad.onmouseout=function()
 var moodselectorbored=document.getElementById('moodselectorbored');
 moodselectorbored.onclick=function()
 {
-	ISI.src="D:/music/qqmusic/Fran Chou Chou.MP3";
+	ISI.src="music/Fran Chou Chou.MP3";
 }
 moodselectorbored.onmouseover=function()
 {
@@ -70,7 +70,7 @@ moodselectorbored.onmouseout=function()
 var moodselectororigin=document.getElementById('moodselectororigin');
 moodselectororigin.onclick=function()
 {
-	ISI.src="D:/music/qqmusic/ISI.mp3";
+	ISI.src="music/ISI.mp3";
 }
 moodselectororigin.onmouseover=function()
 {
