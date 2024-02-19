@@ -1,0 +1,5 @@
+z1=3+4*i,z2=1+2*i,z3=2*exp(i*pi/6),z=z1*z2/z3
+z_real=real(z),z_image=imag(z),z_angle=angle(z),z_length=abs(z)
+a=[1,3,pi,3+5i]
+//1为起始值，2为步长，表示1-10的技术
+b=1:2:10
